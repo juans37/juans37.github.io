@@ -1,0 +1,26 @@
+body
+{
+    color: black;
+    font-family: cursive;
+    text-align: left;
+    font-size: 20px;
+}
+#Container
+{
+    text-align: center;
+    font-size: 17px;
+}
+#ContainerVampiros 
+{
+    border: rgb(247, 60, 60) 7px solid
+    
+}
+#ContainerLobo
+{
+    border: rgb(230, 167, 33) 7px solid;
+    
+}
+#containerBrujo
+{
+    border: royalblue 7px solid;
+}
