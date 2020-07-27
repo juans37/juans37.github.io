@@ -25,6 +25,10 @@ body
 {
     border: royalblue 7px solid;
 }
+#containerDragon
+{
+    border: green 7px solid;
+}
 .imagen
 {
     width: 400px;
