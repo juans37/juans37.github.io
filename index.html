@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unity Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">UnityDev Portfolio</div>
+        <button class="hamburger" aria-label="Toggle menu">☰</button>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h1>Creating Immersive Game Experiences.</h1>
+      <p>
+        A portfolio showcasing my work in gameplay programming and systems
+        design.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m a game developer specializing in Unity Engine, focused on
+        creating physics systems and gameplay mechanics.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Project Showcase</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>ALUMBRA</h3>
+          <img
+            src="Assets/AlumbraGameplay_40s.gif"
+            alt="Alumbra Gameplay"
+            width="400"
+            height="300"
+          />
+          <p>
+            I created this suspense metroidvania 2D game featuring a dynamic
+            combat system with combos, intelligent AI for enemies and bosses, a
+            skill tree system, and advanced physics for platforming and light
+            mechanics.
+          </p>
+        </div>
+        <div class="project">
+          <h3>GARAK & BAM</h3>
+          <img
+            src="Assets/Garak&BamGif_40s.gif"
+            alt="Garak & Bam Gameplay"
+            width="400"
+            height="300"
+          />
+          <p>
+            I built this top-down roguelite 2.5D game with procedural dungeon
+            generation, a comprehensive inventory system, resource management
+            mechanics, and an engaging tower defense mode.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Technologies</h2>
+      <ul>
+        <li>Unity Engine</li>
+        <li>C# Programming</li>
+        <li>Systems Architecture</li>
+        <li>Game Design</li>
+        <li>Optimation & Performance</li>
+        <li>Prototyping</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Unity Game Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
