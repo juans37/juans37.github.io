@@ -69,5 +69,5 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       clearInterval(timer);
     }
-  }, 50);
+  }, 30);
 });

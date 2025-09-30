@@ -139,6 +139,21 @@ section h2 {
   transition: transform 0.3s;
 }
 
+.tags {
+  margin-top: 1rem;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: var(--cream-2);
+  color: var(--coyote);
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 .project:hover {
   transform: translateY(-2px);
 }
